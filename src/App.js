@@ -1,47 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import Preloader from './components/preload' 
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Projects from './components/Projects';
-import Resume from './components/Resume'
-import Footer from './components/Footer';
-import Home from './components/Home/Home'
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from 'react'
+import './App.css'
 
-function App() {
-  const [load, updateLoad] = useState(true);
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar'
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      updateLoad(false);
-    }, 1200);
+const App = () => {
+  return (
+    <div className='App'>
+      <div className='gradient__bg'>
+        <Header />
+        <Navbar />
 
-    return () => clearTimeout(timer);
-  }, []);
-
-  return(
-    <Router>
-      <Preloader load={load} />
-      <div className='App' id={load ? 'no-scroll' : 'scroll'}>
-        <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/project' element={<Projects />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/*' element={<Navigate />} />
-        </Routes>
-        <Footer/>
       </div>
-    </Router>
+    </div>
   )
-
 }
 
-export default App;
+export default App
