@@ -65,6 +65,7 @@ form {
 }
 
 input {
+    text-align: center;
     font-family: var(--font-family);
     margin: 2px;
     border: 10px;
@@ -75,6 +76,8 @@ input {
 }
 
 textarea {
+    text-transform: capitalize;
+    text-align: center;
     font-family: var(--font-family);
     margin: 2px;
     border: 10px;
@@ -83,6 +86,7 @@ textarea {
     height: 200px;
     font-size: 14px;
 }
+
 
 @media screen and (max-width: 850px) {
     .port__contact-heading {

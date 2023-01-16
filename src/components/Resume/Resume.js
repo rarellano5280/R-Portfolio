@@ -3,7 +3,7 @@ import './resume.css'
 
 const Resume = () => {
   return (
-    <div className='port__resume'>
+    <div className='port__resume' id='Resume'>
     <div className='port__resume-content'>
     <h3>Check out my resume.</h3>
       </div>

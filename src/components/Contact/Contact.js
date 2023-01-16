@@ -14,7 +14,7 @@ function Contact() {
 }
 
   return (
-    <div className='port__contact section__padding'>
+    <div className='port__contact section__padding' id='Contact'>
       <div className='port__contact-heading'>
        <h1 className='gradient__text'>Contact Me</h1>
        <div />
