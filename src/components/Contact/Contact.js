@@ -30,7 +30,7 @@ function Contact() {
         <textarea placeholder='message'></textarea>
         <div className='port__contact-btn'>
         <button type='submit'>Send</button>
-        {message && <span> Thank you. I will be in contact soon!</span>}
+        {message && <span className='submit__message'> Thank you. I will be in contact soon!</span>}
         </div>
         </form>
 
