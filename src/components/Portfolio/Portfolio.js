@@ -1,11 +1,6 @@
 import React from 'react'
 import './portfolio.css';
 import { Container, Row, Col } from 'react-bootstrap'
-import Project1 from '../../Assets/project1.png';
-import Project2 from '../../Assets/project2.png';
-import Project3 from '../../Assets/project3.png';
-import Project4 from '../../Assets/project4.png';
-import Project5 from '../../Assets/project5.png';
 import ProjectCard from './ProjectCard';
 
 

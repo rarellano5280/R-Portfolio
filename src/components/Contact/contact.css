@@ -17,6 +17,7 @@
 }
 
 .port__contact-heading h1 {
+    text-transform: capitalize;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 60px;
@@ -88,6 +89,7 @@ textarea {
 }
 
 .port__contact-socials h1 {
+    text-transform: capitalize;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
