@@ -50,7 +50,7 @@ function Contact() {
 
             <li className='port__contact-social-icons'>
               <a
-              href='#'
+              href='https://github.com/rarellano5280'
               target="_blank"
               rel='noreferrer'
               className='icon-color'
