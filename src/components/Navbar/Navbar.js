@@ -8,11 +8,11 @@ const Navbar = () => {
     <div className='port__navbar'>
       <div className='port__navbar-links'>
         <div className='portNav'>
-          <AiOutlineHome style={{color: 'white', marginTop: "5px"}} /><p><a href='#Home'>Home</a></p>
-          <AiOutlineUser style={{color: 'white', marginTop: "5px"}} /><p><a href='#About'>About</a></p>
-          <AiOutlineFundProjectionScreen style={{color: 'white', marginTop: "5px"}} /><p><a href='#Portfolio'>Portfolio</a></p>
-          <CgFileDocument style={{color: 'white', marginTop: "5px"}} /><p><a href='#Resume'>Resume</a></p>
-          <CgPhone style={{color: 'white', marginTop: "5px"}} /><p><a href='#Contact'>Contact</a></p>
+          <AiOutlineHome style={{color: 'white', marginTop: "5px"}} /><p><a href='/home'>Home</a></p>
+          <AiOutlineUser style={{color: 'white', marginTop: "5px"}} /><p><a href='/about'>About</a></p>
+          <AiOutlineFundProjectionScreen style={{color: 'white', marginTop: "5px"}} /><p><a href='/portfolio'>Portfolio</a></p>
+          <CgFileDocument style={{color: 'white', marginTop: "5px"}} /><p><a href='/resume'>Resume</a></p>
+          <CgPhone style={{color: 'white', marginTop: "5px"}} /><p><a href='/contact'>Contact</a></p>
         </div>
       </div>
     </div>
