@@ -19,7 +19,7 @@
 6. [Contact Me](#contact-me)
     
 ## Description
-This is a portfolio using the React framework to render a multi-page layout. This app 
+This is an updated portfolio using the React framework to render a multi-page layout. This webpage gives access to a homepage, about me page, resume page and a contact me page. 
 
 ## Installation
 
